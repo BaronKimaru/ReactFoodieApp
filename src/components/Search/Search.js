@@ -39,6 +39,22 @@ class Search extends Component {
         this.ApiMealSearch(this.state.searchText);
     };
 
+    individualMealStyle = (index) => {
+        console.log("index: %o", index);
+        return {
+            padding: "10px",
+            border: "2px solid #37003c",
+            backgroundColor: "white",
+            borderRadius: "10px",
+            margin: "75px 15px",
+            // -ms-transform: "rotate(7deg)", /* IE 9 */
+            // -webkit-transform: "rotate(7deg)", /* Safari */
+            boxShadow: "10px 10px #37003c",
+            transform: index %2 === 0 ? "rotate(7deg)" : "rotate(-13deg)"
+        }
+
+    };
+
     render() {
         console.log(this.state.meals);
         return (
@@ -47,7 +63,7 @@ class Search extends Component {
                 <input
                     name="searchText"
                     type="text"
-                    placeholder="Enter your Meal of Choice ..."
+                    placeholder="Enter Meal of Choice e.g. chicken..."
                     style={mealInputStyle}
                     value={this.state.searchText}
                     onChange={event => this.handleMealInputChange(event)}
@@ -59,9 +75,10 @@ class Search extends Component {
                 {this.state.meals ? (
                     <div className="mealsContainerStyle">
                         {this.state.meals.map((meal, index) => (
-                            <div key={index} style={individualMealStyle}>
+
+                            <div key={index} style={this.individualMealStyle(index)}>
                                 <img src={ meal.strMealThumb } alt="meal-thumbnail" style={mealImgStyle} />
-                                <h1 style={mealHeaderStyle}>{ meal.strMeal }</h1>
+                                <h1 style={mealHeaderStyle}>{ meal.strMeal } </h1>
                             </div>
                         ))}
                     </div>
@@ -76,7 +93,7 @@ class Search extends Component {
 
 const appHeaderStyle = {
     color: "#37003c",
-    marginTop:"100px",
+    margin:"100px 0",
     textAlign: "center"
 };
 
@@ -91,7 +108,7 @@ const searchDiv = {
     width: "100%",
     height: "100vh",
     // padding: "20px",
-    border: "0.2px solid #37003C",
+    // border: "0.2px solid #37003C",
     background: "#f4f4f4"
 };
 
@@ -106,22 +123,13 @@ const mealInputStyle = {
     fontSize: "18px"
 };
 
-// row holding the contents: h1 & img
-const individualMealStyle = {
-    padding: "10px",
-    border: "2px solid #37003c",
-    backgroundColor: "white",
-    borderRadius: "10px",
-    // boxShadow: "1px 0.5px #37003c",
-    margin: "15px 5px",
-};
 
 const mealImgStyle = {
     width: "100%",
-    height: "400px",
+    height: "350px",
     borderRadius: "10px",
 };
 
-Search.propTypes = {};
+// Search.propTypes = {};
 
 export default Search;
