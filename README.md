@@ -9,6 +9,8 @@ To run this project locally:
 * run `npm install`
 * run `npm start`
 
+Demo runs here: https://baronkimaru.github.io/ReactFoodieApp/
+
 Mobile interface
 ![image](https://user-images.githubusercontent.com/16536231/72791687-c8a83480-3c48-11ea-85d6-945e830cf2d7.png)
 
