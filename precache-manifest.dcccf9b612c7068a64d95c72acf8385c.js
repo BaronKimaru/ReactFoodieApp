@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5cf26a7d0b18abcf91d898d01689cf39",
+    "revision": "9ca9b84531eb35c8e6c6429c5093fcd0",
     "url": "/ReactFoodieApp/index.html"
   },
   {
-    "revision": "1274a23eff5510596293",
-    "url": "/ReactFoodieApp/static/css/main.b01357ff.chunk.css"
+    "revision": "aa54dec86cd6144a7be3",
+    "url": "/ReactFoodieApp/static/css/main.32d5daef.chunk.css"
   },
   {
     "revision": "dd80587af9987736034b",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ReactFoodieApp/static/js/2.506593d6.chunk.js.LICENSE"
   },
   {
-    "revision": "1274a23eff5510596293",
-    "url": "/ReactFoodieApp/static/js/main.754f9639.chunk.js"
+    "revision": "aa54dec86cd6144a7be3",
+    "url": "/ReactFoodieApp/static/js/main.279cb4ac.chunk.js"
   },
   {
     "revision": "9ee4e43afb0f61ea77d2",
