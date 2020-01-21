@@ -47,12 +47,12 @@ class Search extends Component {
                 <input
                     name="searchText"
                     type="text"
-                    placeholder="Search Meal..."
+                    placeholder="Search..."
                     style={mealInputStyle}
                     value={this.state.searchText}
                     onChange={event => this.handleMealInputChange(event)}
                 />
-                <button onClick={this.handleMealSearch} style={btnStyle}> Search </button>
+                <button onClick={this.handleMealSearch} className="btn" > Search </button>
 
                 <br/>
 
@@ -75,49 +75,45 @@ class Search extends Component {
 }
 
 const h1Style = {
-    color: "#4286f4",
+    color: "#37003c",
     marginTop: "30px",
-    marginBottom: "60px"
+    marginBottom: "60px",
+    textAlign: "center"
 };
 
 const searchDiv = {
     textAlign: "center",
-    width: "80%",
-    margin: "0 auto"
+    width: "100%",
+    height: "100vh",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignContent: "center",
+    border: "3px solid #37003C",
 };
 
 const mealInputStyle = {
-    width: "100%",
-    margin: "10px",
+    width: "70%",
+    textAlign: "center",
+    margin: "25px auto",
     padding: "18px 10px",
     borderRadius: "5px",
-    border: "1px solid #4e5766",
-    boxShadow: "1px 0.5px #888888",
-    fontSize: "18px"
-};
-
-const btnStyle={
-    padding: "12px 10px",
-    width: "20%",
-    borderRadius: "8px",
-    backgroundColor: "#4286f4",
-    color: "#ffffff",
-    cursor: "pointer",
+    border: "1px solid #37003c",
+    boxShadow: "1px 0.5px #37003c",
     fontSize: "18px"
 };
 
 const mealsContainerStyle = {
     display: "grid",
-    // flexDirection: "column"
     gridTemplateColumns: "auto auto auto",
     gridColumnGap: "10px",
     gridRowGap: "15px",
     marginTop: "60px",
-    border: "0.1px solid #4286f4"
+    border: "3px solid #37003C"
 };
 
 const individualMealStyle = {
-    boxShadow: "1px 0.5px #4286f4",
+    boxShadow: "1px 0.5px #37003c",
     margin: "10px",
 };
 
