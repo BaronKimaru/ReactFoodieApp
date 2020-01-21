@@ -15,5 +15,8 @@ Mobile interface
 Desktop:
 ![image](https://user-images.githubusercontent.com/16536231/72790645-099f4980-3c47-11ea-8fda-2901cd347110.png)
 
+Ipad(tablet):
+![image](https://user-images.githubusercontent.com/16536231/72792007-52f09880-3c49-11ea-8418-daaac6725ad9.png)
+
 
 
