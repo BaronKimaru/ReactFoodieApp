@@ -43,7 +43,7 @@ class Search extends Component {
         console.log(this.state.meals);
         return (
             <div style={searchDiv}>
-                <h1 style={appHeaderStyle}> Meal-Search React </h1>
+                <h1 style={appHeaderStyle}>React Foodie App </h1>
                 <input
                     name="searchText"
                     type="text"
