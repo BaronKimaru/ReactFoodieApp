@@ -43,11 +43,11 @@ class Search extends Component {
         console.log(this.state.meals);
         return (
             <div style={searchDiv}>
-                <h1 style={h1Style}> Meal Search React App </h1>
+                <h1 style={appHeaderStyle}> Meal-Search React </h1>
                 <input
                     name="searchText"
                     type="text"
-                    placeholder="Search..."
+                    placeholder="Enter your Meal of Choice ..."
                     style={mealInputStyle}
                     value={this.state.searchText}
                     onChange={event => this.handleMealInputChange(event)}
@@ -57,16 +57,16 @@ class Search extends Component {
                 <br/>
 
                 {this.state.meals ? (
-                    <div style={mealsContainerStyle}>
+                    <div className="mealsContainerStyle">
                         {this.state.meals.map((meal, index) => (
-                            <div style={individualMealStyle} key={index} >
-                                <h1>{ meal.strMeal }</h1>
+                            <div key={index} style={individualMealStyle}>
                                 <img src={ meal.strMealThumb } alt="meal-thumbnail" style={mealImgStyle} />
+                                <h1 style={mealHeaderStyle}>{ meal.strMeal }</h1>
                             </div>
                         ))}
                     </div>
                 ) : (
-                    <p>Try searching for a meal</p>
+                    <h1 style={mealHeaderStyle}> Cannot find said images. <br/> Try searching for another </h1>
                 )}
 
             </div>
@@ -74,10 +74,15 @@ class Search extends Component {
     }
 }
 
-const h1Style = {
+const appHeaderStyle = {
     color: "#37003c",
-    marginTop: "30px",
-    marginBottom: "60px",
+    marginTop:"100px",
+    textAlign: "center"
+};
+
+const mealHeaderStyle = {
+    color: "#37003c",
+    margin: "0 0 30px",
     textAlign: "center"
 };
 
@@ -85,15 +90,13 @@ const searchDiv = {
     textAlign: "center",
     width: "100%",
     height: "100vh",
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "center",
-    alignContent: "center",
-    border: "3px solid #37003C",
+    // padding: "20px",
+    border: "0.2px solid #37003C",
+    background: "#f4f4f4"
 };
 
 const mealInputStyle = {
-    width: "70%",
+    width: "80%",
     textAlign: "center",
     margin: "25px auto",
     padding: "18px 10px",
@@ -103,22 +106,20 @@ const mealInputStyle = {
     fontSize: "18px"
 };
 
-const mealsContainerStyle = {
-    display: "grid",
-    gridTemplateColumns: "auto auto auto",
-    gridColumnGap: "10px",
-    gridRowGap: "15px",
-    marginTop: "60px",
-    border: "3px solid #37003C"
-};
-
+// row holding the contents: h1 & img
 const individualMealStyle = {
-    boxShadow: "1px 0.5px #37003c",
-    margin: "10px",
+    padding: "10px",
+    border: "2px solid #37003c",
+    backgroundColor: "white",
+    borderRadius: "10px",
+    // boxShadow: "1px 0.5px #37003c",
+    margin: "15px 5px",
 };
 
 const mealImgStyle = {
-    width: "50%"
+    width: "100%",
+    height: "400px",
+    borderRadius: "10px",
 };
 
 Search.propTypes = {};
