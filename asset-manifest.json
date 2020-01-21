@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ReactFoodieApp/static/css/main.03a96436.chunk.css",
-    "main.js": "/ReactFoodieApp/static/js/main.d5fff209.chunk.js",
-    "main.js.map": "/ReactFoodieApp/static/js/main.d5fff209.chunk.js.map",
+    "main.js": "/ReactFoodieApp/static/js/main.bcdb6494.chunk.js",
+    "main.js.map": "/ReactFoodieApp/static/js/main.bcdb6494.chunk.js.map",
     "runtime-main.js": "/ReactFoodieApp/static/js/runtime-main.93fbc16a.js",
     "runtime-main.js.map": "/ReactFoodieApp/static/js/runtime-main.93fbc16a.js.map",
     "static/js/2.506593d6.chunk.js": "/ReactFoodieApp/static/js/2.506593d6.chunk.js",
     "static/js/2.506593d6.chunk.js.map": "/ReactFoodieApp/static/js/2.506593d6.chunk.js.map",
     "index.html": "/ReactFoodieApp/index.html",
-    "precache-manifest.d4de0fb03b59457c8b9b75a794c7cd13.js": "/ReactFoodieApp/precache-manifest.d4de0fb03b59457c8b9b75a794c7cd13.js",
+    "precache-manifest.8b5a1bbcee3f982a81c1cef73105ca42.js": "/ReactFoodieApp/precache-manifest.8b5a1bbcee3f982a81c1cef73105ca42.js",
     "service-worker.js": "/ReactFoodieApp/service-worker.js",
     "static/css/main.03a96436.chunk.css.map": "/ReactFoodieApp/static/css/main.03a96436.chunk.css.map",
     "static/js/2.506593d6.chunk.js.LICENSE": "/ReactFoodieApp/static/js/2.506593d6.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.93fbc16a.js",
     "static/js/2.506593d6.chunk.js",
     "static/css/main.03a96436.chunk.css",
-    "static/js/main.d5fff209.chunk.js"
+    "static/js/main.bcdb6494.chunk.js"
   ]
 }
