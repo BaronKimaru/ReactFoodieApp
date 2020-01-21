@@ -10,7 +10,7 @@ To run this project locally:
 * run `npm start`
 
 Mobile interface
-Image: ![image](https://user-images.githubusercontent.com/16536231/72787309-ba561a80-3c40-11ea-906f-b8d894a77377.png)
+![image](https://user-images.githubusercontent.com/16536231/72791687-c8a83480-3c48-11ea-85d6-945e830cf2d7.png)
 
 Desktop:
 ![image](https://user-images.githubusercontent.com/16536231/72790645-099f4980-3c47-11ea-8fda-2901cd347110.png)
