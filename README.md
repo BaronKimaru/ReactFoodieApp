@@ -4,7 +4,7 @@ A project that showcase how to incorporate the search functionality via the reac
 Querying of the API was done via the axios library, however, in place is an alternative: the Fetch API. either does the job.
 
 To run this project locally:
-* git clone https://github.com/BaronKimaru/React-Foodie-App.git
+* git clone https://github.com/BaronKimaru/ReactFoodieApp.git
 * cd into the directory
 * run `npm install`
 * run `npm start`
