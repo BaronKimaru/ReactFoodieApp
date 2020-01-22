@@ -1,3 +1,11 @@
+:root{
+  --primary-color: #37003c;
+  --light-color: #fff;
+  --dark-color: #333;
+  /*--font-color: #37003C;*/
+  /*--heading-color: #37003C;*/
+}
+
 *{
   box-sizing: border-box;
   margin: 0;
@@ -16,7 +24,7 @@ ul{
 
 a{
   text-decoration: none;
-  color: #333;
+  color: var(--dark-color);
 }
 
 .container{
@@ -32,8 +40,26 @@ a{
   margin-top: 100px;
   /*border: 1px solid #37003c;*/
   padding: 0 20px;
-  background: #37003c;
+  background: var(--primary-color);
 }
+
+
+/* [1] The container */
+.img-hover-zoom {
+  height: 300px; /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+  transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+  transform: scale(1.5);
+}
+
 
 /*change layout on smaller screens*/
 @media only screen and (max-width:1000px){
@@ -68,8 +94,8 @@ a{
   padding: 16px 10px;
   width: 30%;
   border-radius: 8px;
-  background-color: #37003C;
-  color: #ffffff;
+  background-color: var(--primary-color);
+  color: var(--light-color);
   cursor: pointer;
   font-family: inherit;
   font-size: 22px;
@@ -79,9 +105,6 @@ a{
 
 .btn:hover {
    opacity: 0.87;
-
-  /*background-color: #ffffff;*/
-  /*color: #37003c;*/
  }
 
 .btn:active{

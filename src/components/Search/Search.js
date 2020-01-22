@@ -77,7 +77,9 @@ class Search extends Component {
                         {this.state.meals.map((meal, index) => (
 
                             <div key={index} style={this.individualMealStyle(index)}>
-                                <img src={ meal.strMealThumb } alt="meal-thumbnail" style={mealImgStyle} />
+                                <div className="img-hover-zoom">
+                                    <img src={ meal.strMealThumb } alt="meal-thumbnail" style={mealImgStyle} />
+                                </div>
                                 <h1 style={mealHeaderStyle}>{ meal.strMeal } </h1>
                             </div>
                         ))}
@@ -129,7 +131,7 @@ const mealInputStyle = {
 
 const mealImgStyle = {
     width: "100%",
-    height: "350px",
+    height: "300px",
     borderRadius: "10px",
 };
 
