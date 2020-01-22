@@ -46,11 +46,11 @@ class Search extends Component {
             border: "2px solid #37003c",
             backgroundColor: "white",
             borderRadius: "10px",
-            margin: "75px 15px",
+            margin: "55px 10px",
             // -ms-transform: "rotate(7deg)", /* IE 9 */
             // -webkit-transform: "rotate(7deg)", /* Safari */
-            boxShadow: "10px 10px #37003c",
-            transform: index %2 === 0 ? "rotate(7deg)" : "rotate(-13deg)"
+            // boxShadow: "10px 10px #37003c",
+            transform: index %2 === 0 ? "rotate(7deg)" : "rotate(-8deg)"
         }
 
     };
@@ -92,14 +92,16 @@ class Search extends Component {
 }
 
 const appHeaderStyle = {
+    fontSize: "4rem",
     color: "#37003c",
     margin:"100px 0",
     textAlign: "center"
 };
 
 const mealHeaderStyle = {
+    fontSize: "2rem",
     color: "#37003c",
-    margin: "0 0 30px",
+    margin: "0 0 10px",
     textAlign: "center"
 };
 
