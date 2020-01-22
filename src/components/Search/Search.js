@@ -122,7 +122,8 @@ const mealInputStyle = {
     borderRadius: "5px",
     border: "1px solid #37003c",
     boxShadow: "1px 0.5px #37003c",
-    fontSize: "18px"
+    fontFamily: "inherit",
+    fontSize: "22px"
 };
 
 
