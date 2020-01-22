@@ -71,8 +71,8 @@ a{
 
 @media only screen and (min-width:1350px){
   .container{
-    padding: 0 2rem;
-    max-width: 1200px;
+    padding: 0 12rem;
+    /*max-width: 1300px;*/
   }
 
 }
