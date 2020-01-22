@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/ReactFoodieApp/static/css/main.03a96436.chunk.css",
-    "main.js": "/ReactFoodieApp/static/js/main.1d0ed17d.chunk.js",
-    "main.js.map": "/ReactFoodieApp/static/js/main.1d0ed17d.chunk.js.map",
+    "main.css": "/ReactFoodieApp/static/css/main.312eba2c.chunk.css",
+    "main.js": "/ReactFoodieApp/static/js/main.ffe390ea.chunk.js",
+    "main.js.map": "/ReactFoodieApp/static/js/main.ffe390ea.chunk.js.map",
     "runtime-main.js": "/ReactFoodieApp/static/js/runtime-main.93fbc16a.js",
     "runtime-main.js.map": "/ReactFoodieApp/static/js/runtime-main.93fbc16a.js.map",
     "static/js/2.506593d6.chunk.js": "/ReactFoodieApp/static/js/2.506593d6.chunk.js",
     "static/js/2.506593d6.chunk.js.map": "/ReactFoodieApp/static/js/2.506593d6.chunk.js.map",
     "index.html": "/ReactFoodieApp/index.html",
-    "precache-manifest.e39581fa41731afd03a71ee00590b622.js": "/ReactFoodieApp/precache-manifest.e39581fa41731afd03a71ee00590b622.js",
+    "precache-manifest.e8f353790882085b15e745b0b647b6b3.js": "/ReactFoodieApp/precache-manifest.e8f353790882085b15e745b0b647b6b3.js",
     "service-worker.js": "/ReactFoodieApp/service-worker.js",
-    "static/css/main.03a96436.chunk.css.map": "/ReactFoodieApp/static/css/main.03a96436.chunk.css.map",
+    "static/css/main.312eba2c.chunk.css.map": "/ReactFoodieApp/static/css/main.312eba2c.chunk.css.map",
     "static/js/2.506593d6.chunk.js.LICENSE": "/ReactFoodieApp/static/js/2.506593d6.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.93fbc16a.js",
     "static/js/2.506593d6.chunk.js",
-    "static/css/main.03a96436.chunk.css",
-    "static/js/main.1d0ed17d.chunk.js"
+    "static/css/main.312eba2c.chunk.css",
+    "static/js/main.ffe390ea.chunk.js"
   ]
 }
