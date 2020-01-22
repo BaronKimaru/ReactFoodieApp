@@ -92,9 +92,9 @@ class Search extends Component {
 }
 
 const appHeaderStyle = {
-    fontSize: "4rem",
+    fontSize: "3rem",
     color: "#37003c",
-    margin:"100px 0",
+    margin:"100px 0 20px",
     textAlign: "center"
 };
 
