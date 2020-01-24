@@ -103,7 +103,7 @@ const appHeaderStyle = {
 const mealHeaderStyle = {
     fontSize: "2rem",
     color: "#37003c",
-    margin: "0 0 10px",
+    margin: "0 0 20px",
     textAlign: "center"
 };
 

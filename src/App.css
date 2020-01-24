@@ -16,6 +16,7 @@ body{
   font-family: "Architects Daughter", cursive;
   line-height: 1.5;
   background: #f4f4f4;
+  width: 100%;
 }
 
 ul{
@@ -35,11 +36,11 @@ a{
 .mealsContainerStyle{
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-column-gap: 10px;
-  grid-row-gap: 15px;
+  grid-column-gap: 5px;
+  grid-row-gap: 10px;
   margin-top: 100px;
   /*border: 1px solid #37003c;*/
-  padding: 0 20px;
+  padding: 0 25px;
   background: var(--primary-color);
 }
 
@@ -52,7 +53,7 @@ a{
 
 /* [2] Transition property for smooth transformation of images */
 .img-hover-zoom img {
-  transition: transform .5s ease;
+  transition: transform .5s ease-in-out;
 }
 
 /* [3] Finally, transforming the image when container gets hovered */
