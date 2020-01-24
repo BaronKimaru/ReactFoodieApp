@@ -103,7 +103,7 @@ const appHeaderStyle = {
 const mealHeaderStyle = {
     fontSize: "2rem",
     color: "#37003c",
-    margin: "0 0 20px",
+    margin: "10px 0 5px",
     textAlign: "center"
 };
 
@@ -131,7 +131,7 @@ const mealInputStyle = {
 
 const mealImgStyle = {
     width: "100%",
-    height: "300px",
+    height: "320px",
     borderRadius: "10px",
 };
 
