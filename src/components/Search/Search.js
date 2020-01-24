@@ -117,7 +117,7 @@ const searchDiv = {
 };
 
 const mealInputStyle = {
-    width: "80%",
+    width: "75%",
     textAlign: "center",
     margin: "25px auto",
     padding: "18px 10px",
@@ -131,7 +131,7 @@ const mealInputStyle = {
 
 const mealImgStyle = {
     width: "100%",
-    height: "320px",
+    height: "300px",
     borderRadius: "10px",
 };
 
