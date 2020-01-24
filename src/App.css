@@ -16,7 +16,7 @@ body{
   font-family: "Architects Daughter", cursive;
   line-height: 1.5;
   background: #f4f4f4;
-  width: 100%;
+  width: 100vh;
 }
 
 ul{
@@ -42,6 +42,7 @@ a{
   /*border: 1px solid #37003c;*/
   padding: 0 25px;
   background: var(--primary-color);
+  width: 100%;
 }
 
 
