@@ -42,6 +42,9 @@ a{
   padding: 0 25px;
   background: var(--primary-color);
   width: 100%;
+  border-radius: 40px;
+  z-index: 999;
+  /*box-shadow: 0px 0px 5px 3px var(--primary-color);*/
 }
 
 
@@ -71,7 +74,7 @@ a{
 }
 
 
-@media only screen and (min-width:1350px){
+@media only screen and (min-width:1530px){
   .container{
     padding: 0 12rem;
   }
@@ -109,7 +112,3 @@ a{
 .btn:hover {
    opacity: 0.87;
  }
-
-.btn:active{
-  transform: translateY(4px);
-}
